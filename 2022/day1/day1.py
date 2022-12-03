@@ -16,6 +16,8 @@ for i in range(len(temp)):
         final.append(c)
         c = 0
 
+# 68293, 68501, 69310]
+
 final = sorted(final)[-3::]
 
 print(
