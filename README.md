@@ -5,6 +5,8 @@ The respository contains folders for every event with the data as **.txt file** 
 
 As long as i complete a puzzle, i will put a link down below with the instructions of the specific story.
 
+**2021**
+
 > [**2021/Day 1: Sonar Sweep**](https://adventofcode.com/2021/day/1)
 > 
 > [**2021/Day 2: Dive!**](https://adventofcode.com/2021/day/2)
