@@ -49,5 +49,26 @@ def your_func(x: list, y: dict) -> int:
     return score
 
 
+matching = {
+    'A X': 'A Z',
+    'A Y': 'A X',
+    'A Z': 'A Y',
+    'B X': 'B X',
+    'B Y': 'B Y',
+    'B Z': 'B Z',
+    'C X': 'C Y',
+    'C Y': 'C Z',
+    'C Z': 'C X'
+}
+
+
+def new_mapping(x: list) -> list:
+    new_list = [matching[k] for k in x]
+    return new_list
+
+
 print(
-    f'The result is: {my_func(temp, choice_score) + your_func(temp, result_score)}')
+    f'The result of the first part is: {my_func(temp, choice_score) + your_func(temp, result_score)}')
+
+print(
+    f'The result of the first part is: {my_func(new_mapping(temp), choice_score) + your_func(new_mapping(temp), result_score)}')
