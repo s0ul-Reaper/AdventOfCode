@@ -3,6 +3,13 @@ with open('input.txt', 'r') as f:
 with open('input.txt', 'r') as g:
     temp = g.read().replace('\n', '')
 
+
+# import string
+# lowercase = [letter for letter in string.ascii_lowercase]
+# uppercase = [letter for letter in string.ascii_uppercase]
+# alphabet = lowercase + uppercase
+
+
 CHARS = list(set(temp))
 MISSING_CHARS = ['a', 'e', 'i', 'k', 'o', 'u', 'x', 'y']
 UPPER_MISSING_CHARS = [u.upper() for u in MISSING_CHARS]
