@@ -1,5 +1,5 @@
 with open('input.txt', 'r') as f:
-    data = [line for line in f]
+    data = [line.replace('\n', '') for line in f]
 with open('input.txt', 'r') as g:
     temp = g.read().replace('\n', '')
 
@@ -34,4 +34,31 @@ for final in data:
         second_half(final)))[0])
 
 result = sum([map[k] for k in flist])
-print(f'The result of part one is: {result}')
+
+# Part b
+
+
+common_badge = []
+
+# for i in list(set(data[0])):
+#     if i in list(set(data[1])):
+#         t.append(i)
+# for i in t:
+#     if i in list(set(data[2])):
+#         common_badge.append(i)
+
+
+for n in range(0, len(data), 3):
+    t = []
+    for i in list(set(data[n])):
+        if i in list(set(data[n+1])):
+            t.append(i)
+    for i in t:
+        if i in list(set(data[n+2])):
+            common_badge.append(i)
+
+result2 = sum([map[k] for k in common_badge])
+
+
+print(
+    f'The result of part one is: {result}\nThe result of part two is: {result2}')
