@@ -40,14 +40,6 @@ result = sum([map[k] for k in flist])
 
 common_badge = []
 
-# for i in list(set(data[0])):
-#     if i in list(set(data[1])):
-#         t.append(i)
-# for i in t:
-#     if i in list(set(data[2])):
-#         common_badge.append(i)
-
-
 for n in range(0, len(data), 3):
     t = []
     for i in list(set(data[n])):
