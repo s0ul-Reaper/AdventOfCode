@@ -37,7 +37,6 @@ result = sum([map[k] for k in flist])
 
 # Part b
 
-
 common_badge = []
 
 for n in range(0, len(data), 3):
