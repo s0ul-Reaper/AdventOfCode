@@ -17,10 +17,6 @@ for i in temp:
     i[1] = i[1]-1
 data = temp
 
-
-print(f'{data}\n')
-print(des)
-
 # # Matix initialization
 matrix = np.empty((56, 9), dtype=str)
 
@@ -36,7 +32,6 @@ matrix[54][0], matrix[54][1], matrix[54][2], matrix[54][3], matrix[54][4], matri
     54][6], matrix[54][7], matrix[54][8] = 'T', 'C', 'L', 'H', 'Q', 'J', 'B', 'T', 'N'
 matrix[55][0], matrix[55][1], matrix[55][2], matrix[55][3], matrix[55][4], matrix[55][5], matrix[
     55][6], matrix[55][7], matrix[55][8] = 'G', 'G', 'C', 'J', 'P', 'P', 'Z', 'R', 'H'
-print(matrix)
 
 
 # mat = np.empty((6, 3), dtype=str)
@@ -85,4 +80,5 @@ for y in range(len(data)):
                                                [1]] = hill_point(matrix, data[y][1])[0]
         matrix[hill_point(matrix, data[y][1])[1][0]][hill_point(
             matrix, data[y][1])[1][1]] = ''
+
 print(matrix)
