@@ -4,8 +4,7 @@ with open('input.txt', 'r') as f:
 
 def det(x, y):
     for i in range(len(x)):
-        temp = x[i:i+y]
-        if len(set(temp)) == len(temp):
+        if len(set(x[i:i+y])) == len(x[i:i+y]):
             return i+y
 
 
