@@ -13,4 +13,18 @@ As long as i complete a puzzle, i will put a link down below with the instructio
 > 
 > [**2021/Day 3: Binary Diagnostic**](https://adventofcode.com/2021/day/3)
 
+**2022**
+
+> [**2022/Day 1: Calorie Counting**](https://adventofcode.com/2022/day/1)
+> 
+> [**2022/Day 2: Rock Paper Scissors**](https://adventofcode.com/2022/day/2)
+> 
+> [**2022/Day 3: Rucksack Reorganization**](https://adventofcode.com/2022/day/3)
+>
+> [**2022/Day 4: Camp Cleanup**](https://adventofcode.com/2022/day/4)
+>
+> [**2022/Day 5: Supply Stacks**](https://adventofcode.com/2022/day/5)
+>
+> [**2022/Day 6: Tuning Trouble**](https://adventofcode.com/2022/day/6)
+
 Feel free to check it out! :v:	
