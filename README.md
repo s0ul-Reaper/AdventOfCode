@@ -1,5 +1,5 @@
 ### Advent Of Code.
-In this repos i will share my journey trying to solve the [AdventOfCode](https://adventofcode.com/) puzzles, using python.
+In this repo i will share my journey trying to solve the [AdventOfCode](https://adventofcode.com/) puzzles, using python.
 
 The respository contains folders for every event with the data as **.txt file** and my attempt of solving the puzzles. 
 
